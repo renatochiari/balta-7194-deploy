@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace Shop.Controllers
 {
-    [Route("users")]
+    [Route("v1/users")]
     public class UserController : Controller
     {
         [HttpGet]
